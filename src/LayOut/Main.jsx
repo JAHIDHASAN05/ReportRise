@@ -1,9 +1,20 @@
 import React from 'react';
+import Header from '../Components/Header/Header';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const Main = () => {
     return (
         <div>
-            this is main
+            <Header></Header>
+            <Container>
+                
+                <Row>
+                    <Col sm={3}>sm=true</Col>
+                    <Col sm={6}>sm=true</Col>
+                    <Col sm={6}>sm=true</Col>
+                </Row>
+            </Container>
+
         </div>
     );
 };
