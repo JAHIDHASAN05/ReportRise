@@ -1,11 +1,10 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const Middlecontent = () => {
     return (
         <div>
-            <h1>Main content is loading ////
-                
-            </h1>
+            <Outlet></Outlet>
         </div>
     );
 };
