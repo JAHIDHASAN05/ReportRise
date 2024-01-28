@@ -15,7 +15,7 @@ const NewsCard = () => {
                         <Card.Title>{news.title}</Card.Title>
                         <Card.Img variant="top" src={news.image_url} />
                         <Card.Text>
-                           {news.details<250 ? <>{news.details}</> : <>{news.details.slice(0,250)}...{<Link>Read More</Link>}</>}
+                           {news.details<250 ? <>{news.details}</> : <>{news.details.slice(0,250)}...{<Link to={`/news/${news._id}`}>Read More</Link>}</>}
                         </Card.Text>
                       
                     </Card.Body>

@@ -4,11 +4,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 import LeftNav from '../SharedPage/LeftNav/LeftNav';
 import Middlecontent from '../SharedPage/MiddleContent/Middlecontent';
 import RightNav from '../SharedPage/RightNav/RightNav';
+import NavigationBar from '../SharedPage/NavigationBar/NavigationBar';
 
 const Main = () => {
     return (
         <div>
             <Header></Header>
+            <NavigationBar></NavigationBar>
             <Container>
                 
                 <Row>

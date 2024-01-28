@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png'
 import moment from 'moment';
 import { Button, Container } from 'react-bootstrap';
 import Marquee from 'react-fast-marquee';
-import NavigationBar from '../../SharedPage/NavigationBar/NavigationBar';
+
 
 const Header = () => {
     return (
@@ -18,7 +18,7 @@ const Header = () => {
                 </Marquee>
 
             </div>
-            <NavigationBar></NavigationBar>
+           
         </Container>
     );
 };
